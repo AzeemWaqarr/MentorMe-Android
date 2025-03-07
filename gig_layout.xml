@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- gig_layout.xml -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="144dp"
+        android:layout_height="131dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/home1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck">
+
+        <ImageView
+            android:id="@+id/imageView120"
+            android:layout_width="137dp"
+            android:layout_height="51dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.86"
+            app:srcCompat="@drawable/rectangle_16" />
+
+        <ImageView
+            android:id="@+id/fav_IV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView120"
+            app:layout_constraintEnd_toEndOf="@+id/imageView120"
+            app:layout_constraintHorizontal_bias="0.91"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView120"
+            app:layout_constraintVertical_bias="0.7"
+            app:srcCompat="@drawable/vector__2_" />
+
+        <ImageView
+            android:id="@+id/availability_IV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView120"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="@+id/imageView120"
+            app:layout_constraintTop_toTopOf="@+id/imageView120"
+            app:layout_constraintVertical_bias="0.73"
+            app:srcCompat="@drawable/vector__3_" />
+
+        <TextView
+            android:id="@+id/availabality_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Not Available"
+            android:textColor="#918C8C"
+            android:textSize="6sp"
+            app:layout_constraintBottom_toBottomOf="@+id/availability_IV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/availability_IV"
+            app:layout_constraintTop_toTopOf="@+id/availability_IV" />
+
+        <TextView
+            android:id="@+id/price_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$500/Session"
+            android:textColor="#ECB800"
+            android:textSize="4sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView120"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.88"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView120"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <TextView
+            android:id="@+id/role_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lead - Technology Officer"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView120"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="@+id/imageView120"
+            app:layout_constraintTop_toTopOf="@+id/imageView120" />
+
+        <TextView
+            android:id="@+id/name_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Martina Watson"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView120"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView120"
+            app:layout_constraintVertical_bias="0.18" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
